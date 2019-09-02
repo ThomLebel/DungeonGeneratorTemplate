@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7258391475764666188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5494732743266877065}
+  - component: {fileID: 7011029427236768260}
+  - component: {fileID: 6722355365945470484}
+  m_Layer: 0
+  m_Name: Room LRT Templates
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5494732743266877065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7258391475764666188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7011029427236768260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7258391475764666188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a136bb9351075ef419a002bc81ce0e66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 4598980957975782567, guid: a52c128cfd2f5334a86be30b2b9fc3b5, type: 3}
+  - {fileID: 4598980957975782567, guid: 864b3634b4b7b144bbd870cdc33b5711, type: 3}
+  - {fileID: 4598980957975782567, guid: 6d8ef03186acedb4ba41c3368aa15960, type: 3}
+  - {fileID: 4598980957975782567, guid: 9266dab9f938ae143a99b320b5e2ade5, type: 3}
+  - {fileID: 4598980957975782567, guid: 49e4855af0cdc5c4db80c87e7ebb61ef, type: 3}
+--- !u!114 &6722355365945470484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7258391475764666188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23ad187a391f76f4292f7e6d3b5d095b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
